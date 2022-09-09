@@ -3,9 +3,7 @@
 /**
  * main - print the entry
  * 
- * Description: prints out the main function
- * this program prints "Programming is like building a multilingual puzzle
- * Retrun: 0
+ * Retrun: Always 0 (Sucess)
  */
 int main(void)
 {
