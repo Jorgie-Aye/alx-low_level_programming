@@ -1,24 +1,23 @@
-#include <stdio.h>                                                                                                                                                                 
-                                                                                                                                                                                   
-/**                                                                                                                                                                                
-* main - prints the string in the printf function                                                                                                                                  
-*                                                                                                                                                                                  
-* Description: print the main function 
-* this program prints "Programming is like building a multilingual puzzle
-* Return: 0
-*/
+#include <stdio.h>
+
+/**
+ * main - Entry point
+ * 
+ * Return: Always 0 (Success)
+ */
+
 int main(void)
 {
-    char c;
-    int i;
-    long li;
-    long long lli;
-    float f;
-
-    printf("Size of a char: %d byte(s)\n,sizeof(c));
-    printf("Size of an int: %d byte(s)\n,sizeof(i));
-    printf("Size of a li: %d byte(s)\n,sizeof(li));
-    printf("Size of a lli: %d byte(S)\n,sizeof(lli));
-    printf("Size of a f: %d byte(s)\n,sizeof(f)); 
-    return (0);
-}  
+        char c;
+        int i;
+        long i li;
+        long long i lli;
+        float f;
+       
+        printf("Size of a char: %d byte(s)\n,sizeof(char));
+        printf("Size of an int: %d byte(s)\n,sizeof(int));
+        printf("Size of a long i: %d byte(s)\n,sizeof(long int));
+        printf("Size of a long long i: %d byte(s)\n,sizeof(long long i));
+        printf("Size of a float: %d byte(s)\n,sizeof(float));
+        return (0);
+}
